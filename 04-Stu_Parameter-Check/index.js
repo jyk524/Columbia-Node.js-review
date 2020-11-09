@@ -11,3 +11,5 @@ console.log("2", process.argv[2]);
 console.log("3", process.argv[3]);
 
 console.log("a", a);
+
+// In terminal process.argv
