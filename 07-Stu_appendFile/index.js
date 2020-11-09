@@ -1,9 +1,9 @@
-// require the package that has the functions, dependency. Node module
-var fs = require("fs");
-// fs.appendFile - appends to ("target", "what to add". function(err))
-fs.appendFile("message.txt", "\n" + process.argv[2], function (err) {
+const fs = require("fs");
+
+fs.appendFile("message.txt", process.argv[2] + "\n", function(err) {
   if (err) {
-    return console.log(error);
+    return console.log(err);
+  } else {
+    console.log("Commit Logged!")
   }
-  console.log("message.txt");
-});
+})
