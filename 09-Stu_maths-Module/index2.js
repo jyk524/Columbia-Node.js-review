@@ -1,4 +1,4 @@
-const maths = require('./math2')
+const maths = require('./math')
 
 const operation = process.argv[2];
 
