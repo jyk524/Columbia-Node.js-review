@@ -31,7 +31,7 @@ inquirer.prompt([
       name: 'contact',
       choices: ['Email', 'Phone', 'Video Chat']
     },
-  ]).then(function(data){
+  ]).then((data) => {
     
     // Create Filename from data.name from inquirer first question
     // lowercase, split, and join to put first and last name together no spaces
